@@ -1,0 +1,30 @@
+/* HEADER */
+header {
+    background-color: grey;
+    font-size: 100%;
+    font-family: Cowboy;
+    border: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-family: Cowboy;
+        font-size: 45px;
+        color: white;
+        display: inline-block;
+        margin: 15px;
+        padding: 0px;
+    }
+
+    &__ul {
+        padding: 15px;
+        margin: 0px;
+        display: flex;
+        background-color: gray;
+    }
+
+    &__li {
+        padding: 10px;
+    }
+}

@@ -129,6 +129,8 @@ p {
     margin: 20px;
     font-size: 1em;
     display: flex;
+    max-width: 65%;
+    margin: 0%;
 }
 
 p a {
