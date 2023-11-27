@@ -5,10 +5,10 @@
 @import "./reset/grid";
 
 // layout
-@import "./header";
-@import "./content";
-@import "./footer";
-@import "./secondary";
+@import "./layout/header";
+@import "./layout/content";
+@import "./layout/footer";
+@import "./layout/secondary";
 
 // media query
-@import "./media";
+@import "./layout/media";
