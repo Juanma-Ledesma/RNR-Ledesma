@@ -116,6 +116,8 @@ div p {
   border: none;
   margin: 0%;
   color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -123,8 +125,7 @@ p {
   margin: 20px;
   font-size: 1em;
   display: flex;
-  max-width: 65%;
-  margin: 0%;
+  justify-content: left;
 }
 
 p a {
@@ -184,9 +185,6 @@ form {
 
 /* desktop */
 @media only screen and (min-width: 961px) {
-  .navbar {
-    display: none;
-  }
   .grid-item-2 iframe {
     display: flex;
     justify-content: center;
@@ -303,6 +301,8 @@ form {
   .logo img {
     height: 200px;
     width: auto;
+    display: flex;
+    justify-content: center;
   }
   .grid-section-3 {
     margin: 0%;
