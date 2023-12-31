@@ -8,6 +8,9 @@ h1 {
   padding: 0px;
 }
 
+div h1{
+  color: black;
+}
 li {
   color: black;
   list-style: none;
@@ -181,6 +184,7 @@ footer {
 /* Form */
 form {
   margin-bottom: 150px;
+  margin-left: 15px;
 }
 
 /* desktop */

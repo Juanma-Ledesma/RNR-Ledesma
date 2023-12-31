@@ -1,13 +1,10 @@
 /* HEADER */
 h1 {
-    font-family: Cowboy;
-    font-size: 45px;
-    color: white;
+    font: $title-font;
+    color: $color;
     display: inline-block;
-    margin: 15px;
-    padding: 0px;
-}
-
+    @include borders(15px, 0px)
+    }
 li {
     color: black;
     list-style: none;
